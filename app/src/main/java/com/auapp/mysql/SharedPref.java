@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 
 class SharedPref {
     //Storage File
-    public static final String SHARED_PREF_NAME = "larntech";
+    public static final String SHARED_PREF_NAME = "users";
 
     //Username
     public static final String USER_NAME = "username";

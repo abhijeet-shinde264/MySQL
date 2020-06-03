@@ -23,7 +23,7 @@ public class Register extends AppCompatActivity {
     Button btnRegister;
     Vibrator v;
     //change to your register url
-    final String registerUrl = "http://192.168.0.7/android-users/register.php";
+    final String registerUrl = "http://192.168.0.7/Android/v1/registerUser.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

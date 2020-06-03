@@ -24,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
     Vibrator v;
 
     //change this to match your url
-    final String loginURL = "http://192.168.0.7/android-users/login.php";
+    final String loginURL = "http://192.168.0.7/Android/v1/userLogin.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);username_input = findViewById(R.id.userName);
+        setContentView(R.layout.activity_main);
+        username_input = findViewById(R.id.userName);
         password_input = findViewById(R.id.loginPassword);
         register = findViewById(R.id.register);
         btnLogin = findViewById(R.id.btnLogin);
